@@ -6,6 +6,12 @@ This repository explores a simple but general idea: in living systems, transport
 
 The demo is intentionally minimal. It is not a physiological simulator, a CFD solver, or a validated model of any specific organism or organ. Instead, it is a reproducible scientific-computing exercise showing how a mechanistic idea can be translated into code: define a domain, define a driving potential, simulate transport, and visualize the resulting dynamics.
 
+## Demonstration
+
+The animation below shows the resulting potential-driven transport dynamics in the synthetic 3D conduit-like domain.
+
+![Potential-driven biological flow demo](docs/demo_preview_v1_2.gif)
+
 ---
 
 ## Scientific motivation
@@ -241,14 +247,6 @@ Language standard: C++17
 ```
 
 The simulation core and frame generation are implemented in C++. Python is used only for final GIF assembly.
-
----
-
-## Demonstration
-
-The animation below shows the resulting potential-driven transport dynamics in the synthetic 3D conduit-like domain.
-
-![Potential-driven biological flow demo](docs/demo_preview_v1_2.gif)
 
 ---
 

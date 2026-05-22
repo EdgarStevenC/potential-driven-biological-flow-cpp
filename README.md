@@ -62,29 +62,29 @@ Related work:
 
 The demo represents potential-driven transport in a synthetic 3D biological conduit-like domain.
 
-A scalar potential field \(P(\mathbf{x})\) defines a driving force. The induced flow direction is approximated as:
+A scalar potential field $(P(\mathbf{x}))$ defines a driving force. The induced flow direction is approximated as:
 
-\[
+$\[
 \mathbf{u}(\mathbf{x}) = -K(\mathbf{x}) \nabla P(\mathbf{x})
-\]
+\]$
 
 where:
 
-- \(P(\mathbf{x})\) is a pressure/potential-like field;
-- \(K(\mathbf{x})\) represents an effective conductance or permeability;
-- \(\mathbf{u}(\mathbf{x})\) is the induced transport direction.
+- $(P(\mathbf{x}))$ is a pressure/potential-like field;
+- $(K(\mathbf{x}))$ represents an effective conductance or permeability;
+- $(\mathbf{u}(\mathbf{x}))$ is the induced transport direction.
 
-A transported marker \(c(\mathbf{x},t)\) evolves according to a simplified advection-diffusion equation:
+A transported marker $\(c(\mathbf{x},t)\)$ evolves according to a simplified advection-diffusion equation:
 
-\[
+$\[
 \frac{\partial c}{\partial t} + \nabla \cdot (c\mathbf{u}) = D\nabla^2 c + S
-\]
+\]$
 
 where:
 
-- \(c(\mathbf{x},t)\) is a concentration-like transported marker;
-- \(D\) is an effective diffusion or dispersion coefficient;
-- \(S\) represents inlet forcing, source terms, or localized supply.
+- $\(c(\mathbf{x},t)\)$ is a concentration-like transported marker;
+- $\(D\)$ is an effective diffusion or dispersion coefficient;
+- $\(S\)$ represents inlet forcing, source terms, or localized supply.
 
 The implementation is deliberately compact. It is designed to demonstrate the modeling workflow, not to provide a validated physiological prediction.
 
@@ -94,7 +94,7 @@ The implementation is deliberately compact. It is designed to demonstrate the mo
 
 The same computational structure can be reinterpreted across different living systems by changing geometry, forcing, and parameterization.
 
-| Modeling component | Generic role | Possible biological interpretation |
+| Modeling component | Role | Possible biological interpretation |
 |---|---|---|
 | 3D conduit geometry | Spatial constraint | Vessel, duct, root-associated channel, polar growth domain, synthetic tissue-like conduit |
 | Potential field \(P\) | Driving force | Pressure, suction, water potential, chemical potential, mechanical gradient |
@@ -157,12 +157,10 @@ This repository demonstrates:
 
 This is not:
 
-- a validated hemodynamic model;
 - a complete CFD solver;
 - a finite-element implementation;
 - a physiological simulator;
 - a plant-root, pollen-tube, or cardiac-specific model;
-- a replacement for specialized numerical simulation frameworks.
 
 It is a focused demonstration of how mechanistic modeling concepts can be expressed in code.
 

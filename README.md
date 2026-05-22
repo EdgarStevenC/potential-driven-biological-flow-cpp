@@ -102,9 +102,9 @@ The same computational structure can be reinterpreted across different living sy
 | Transported marker \(c\) | Dynamic state variable | Tracer, solute, signal, transported material, concentration-like quantity |
 | Source/sink \(S\) | Boundary forcing | Inlet forcing, uptake, local demand, growth-associated sink |
 
-For a cardiac context, the potential field can be read as a simplified pressure-like driver.  
-For root or plant-associated systems, it can be interpreted as suction, water potential, or uptake-driven transport.  
 For polarized growth or morphogenesis-inspired systems, it can represent a localized potential or directional field guiding material redistribution.
+For root or plant-associated systems, it can be interpreted as suction, water potential, or uptake-driven transport.  
+For a cardiac context, the potential field can be read as a simplified pressure-like driver.  
 
 These are not claims of direct biological realism. They indicate how the same numerical architecture can be extended toward different mechanistic modeling problems.
 

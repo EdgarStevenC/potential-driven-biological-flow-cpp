@@ -1,0 +1,22 @@
+# Build artifacts generated locally
+build/
+cmake-build-*/
+CMakeFiles/
+CMakeCache.txt
+Makefile
+cmake_install.cmake
+
+# Runtime simulation outputs
+output/
+*.ppm
+*.vtk
+
+# macOS
+.DS_Store
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Local private notes
+notes/

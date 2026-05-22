@@ -54,7 +54,8 @@ Related work:
 
 - Scientific Reports article: https://www.nature.com/articles/s41598-025-34699-5
 - Runoff Potential Index MATLAB toolbox: https://fr.mathworks.com/matlabcentral/fileexchange/181258-the-runoff-potential-index-upland-lowland-differentiation
-
+- https://github.com/EdgarStevenC/Drought-stress-crop-scale
+  
 ---
 
 ## Mathematical model

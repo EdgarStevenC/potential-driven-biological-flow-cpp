@@ -272,13 +272,14 @@ The source code is available as a tagged GitHub release and will be archived in 
 
 GitHub repository: https://github.com/EdgarStevenC/potential-driven-biological-flow-cpp
 
-Zenodo archive: DOI/link to be added upon release.
+Zenodo archive:  DOI: https://doi.org/10.5281/zenodo.20348410
+                 v1.2 - Potential-driven biological flow in a synthetic 3D conduit
 
 ---
 
 ## How to cite
 
-Correa, E. S. (2026). *Potential-driven biological flow in a synthetic 3D conduit: a reference transport demonstration* (v1.0). Zenodo. DOI/link to be added upon release.
+Correa, E. S. (2026). *Potential-driven biological flow in a synthetic 3D conduit: a reference transport demonstration* (v1.2). Zenodo. https://doi.org/10.5281/zenodo.20348410.
 
 ---
 
